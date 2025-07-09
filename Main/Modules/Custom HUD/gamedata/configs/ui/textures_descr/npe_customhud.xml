@@ -1,0 +1,11 @@
+<w>
+	<file name="ui\npe\customhud\gamehud_01">
+		<texture id="ui_npe_customhud_gamehud_card_01" x="0" y="0" width="1024" height="576" />
+	</file>	
+	<file name="ui\npe\customhud\gamehud_02">
+		<texture id="ui_npe_customhud_gamehud_card_02" x="0" y="0" width="1024" height="576" />
+	</file>			
+	<file name="ui\npe\customhud\gamehud_03">
+		<texture id="ui_npe_customhud_gamehud_card_03" x="0" y="0" width="1024" height="576" />
+	</file>
+</w>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+ <!-- NPE Module template -->
+
+ <!-- 1. PREPARATION -->
+<!-- 	you will replace in this file  -->
+<!-- 	bhsro e.g. mymodname -->
+<!-- 	setname e.g. mysetname -->
+
+<string_table>
+
+	<!-- mcm menu (mandatory) -->
+
+	<string id="ui_mcm_npe_module_bhsro">
+		<text>NPE BHSRO</text>
+	</string>
+	<string id="ui_mcm_npe_module_bhsro_title">
+		<text>BHSRO Tutorials</text>
+	</string>
+	<string id="ui_mcm_npe_module_bhsro_desc">
+		<text>A set of tutorials for the BHSRO mod</text>
+	</string>	
+
+	<!-- every set defined in npe_bhsro_mcm.script must have a string definition as below -->
+	<string id="ui_mcm_npe_module_bhsro_bhsrolimb">
+		<text>BHSRO - Broken Limb</text>
+	</string>
+	<string id="ui_mcm_npe_module_bhsro_bhsrobleed">
+		<text>BHSRO - Bleeding</text>
+	</string>	
+	<string id="ui_mcm_npe_module_bhsro_bhsroheal">
+		<text>BHSRO - Injured</text>
+	</string>	
+	
+	<!-- BHSRO - Broken Limb -->
+
+	<string id="ui_npe_bhsro_bhsrolimb_set_title">
+		<text>BHSRO - Broken Limb</text>
+	</string>
+
+	<string id="ui_npe_bhsro_bhsrolimb_card_01_title">
+		<text>%c[d_cyan]Broken Limbs%c[white]</text>
+	</string>
+	<string id="ui_npe_bhsro_bhsrolimb_card_01_description">
+		<text>One of your limb is completely damaged, you cannot run, aim, and you might limp and walk very slow because of it
+		\n
+		\n
+		The broken limb is shown on the BHS HUD with a %c[ui_gray_2]Grey%c[white] label (only Text BHS or Hybrid) and in the BHS doll with a completely %c[d_red]red%c[white] bar
+		\n
+		\n
+		Such injuries can be fatal in a fight
+		\n
+		\n
+		broken arms makes aiming with guns very hard
+		\n
+		\n
+		while broken legs impairs your movement with limping and greatly reduced speed
+		\n
+		\n
+		on %c[d_blue]torso%c[white] and %c[d_blue]head%c[white] such drastic injuries means instant %c[d_red]death%c[white]
+		\n
+		\n
+		Therefore, it is preferible to delay as much as possible this outcome, by healing up the damaged limbs with painkillers before it's too late
+		</text>
+	</string>
+
+	<string id="ui_npe_bhsro_bhsrolimb_card_02_title">
+		<text>%c[d_cyan]Restore your limb%c[white]</text>
+	</string>
+	<string id="ui_npe_bhsro_bhsrolimb_card_02_description">
+		<text>You can restore the limb using medical supplies and the following procedure:
+		\n
+		\n
+		%c[d_blue]Surgical Kit%c[white] 
+		\n
+		First you need to treat the wound with a surgical kit or instruments
+		\n
+		The UI will reflects this with the limb label turning to %c[d_purple]purple%c[white] and the bar being filled with a %c[d_blue]blue%c[white] streak  
+		\n
+		\n
+		%c[d_blue]Splint%c[white] 
+		\n
+		Next, secure the limb with a splint
+		\n
+		The UI will reflect this with the limb indicator turning to %c[d_red]red%c[white] and the limb bar being filled with a white streak again. 
+		\n
+		This simply indicates that the limb can be healed again with medicines or by sleeping.
+		\n
+		\n
+		There are other ways to restore limbs, like Surgical Instruments or a visit to the %c[d_green]doctor%c[white]
+		</text>
+	</string>
+
+	<string id="ui_npe_bhsro_bhsrolimb_card_03_title">
+		<text>%c[d_cyan]Heal up%c[white]</text>
+	</string>
+	<string id="ui_npe_bhsro_bhsrolimb_card_03_description">
+		<text>Use a %c[d_blue]painkiller%c[white] to speed up the healing process
+		\n
+		\n
+		%c[d_blue]Painkillers%c[white] comes with all strenghts but to heal up broken limbs quickly it is recommended %c[d_blue]Yadulin%c[white]
+		\n
+		\n		
+		%c[d_green]Doctors%c[white] and general %c[d_green]traders%c[white] sells medical supplies, although they might charge you considerably
+		\n
+		\n
+		Similar supplies can also be found carried by other %c[d_green]stalkers%c[white], %c[d_green]stashes%c[white] or in %c[d_green]secured boxes%c[white]
+		\n
+		%c[d_green]Tasks%c[white] might also give such supplies as rewards.
+		\n
+		\n
+		Eventually, if you have the resource and the right recipe, you can craft at %c[d_blue]workbenches%c[white] any medical supplies available in the game
+		\n
+		\n		
+		Don't forget, a good night sleep is also an %c[d_green]inexpensive%c[white] way to heal your injuries.
+		\n
+		\n
+		\n
+		\n				
+		%c[d_cyan]Rewards%c[white]
+		\n
+		\n
+		When you close this tutorial page you will be %c[d_cyan]gifted%c[white] with the supplies to heal your limb now 
+		\n
+		\n
+		check your %c[d_blue]inventory%c[white] and follow the steps as detailed in the previous page 
+		</text>
+	</string>
+
+	<!-- BHSRO - Bleeding -->
+
+	<string id="ui_npe_bhsro_bhsrobleed_set_title">
+		<text>BHSRO - Healing</text>
+	</string>
+
+	<string id="ui_npe_bhsro_bhsrobleed_card_01_title">
+		<text>%c[d_cyan]Bleeding%c[white]</text>
+	</string>
+	<string id="ui_npe_bhsro_bhsrobleed_card_01_description">
+		<text>You are bleeding!
+		\n
+		\n
+		The damage you received caused bleeding.
+		\n
+		\n
+		%c[d_blue]Bleeding%c[white] is a serious condition, it can lead to %c[d_red]death%c[white] if not treated fast
+		\n
+		\n
+		</text>
+	</string>
+
+	<string id="ui_npe_bhsro_bhsrobleed_card_02_title">
+		<text>%c[d_cyan]Stop the bleeding%c[white]</text>
+	</string>
+	<string id="ui_npe_bhsro_bhsrobleed_card_02_description">
+		<text>You can stop the bleeding by mean of medical supplies
+		\n
+		\n
+		For example
+		\n
+		\n
+		%c[d_blue]Bandages%c[white]
+		\n
+		%c[d_blue]Tourniquet%c[white]
+		\n
+		%c[d_blue]Medkits%c[white]
+		\n
+		%c[d_blue]Vinca tablets%c[white]
+		\n
+		\n
+		There is also the possibility to wear equipment/attachments that can manage or reduce the bleeding status
+		\n
+		Such equipment is normally wore on the outfit's belt but also outfits themselves can be upgraded to provide basic bleeding management
+		\n
+		\n
+		For example
+		\n
+		\n
+		%c[d_blue]Technological devices%c[white]
+		\n
+		%c[d_blue]Mutant pelts%c[white]
+		\n
+		%c[d_blue]Artifacts%c[white]
+		</text>
+	</string>
+
+	<string id="ui_npe_bhsro_bhsrobleed_card_03_title">
+		<text>%c[d_cyan]Prepare%c[white]</text>
+	</string>
+	<string id="ui_npe_bhsro_bhsrobleed_card_03_description">
+		<text>Prepare yourself ahead 
+		\n
+		\n
+		Visit doctors or general goods traders and stack up on supplies for your raids
+		\n
+		\n
+		Remember, according to the Zone Institute of Health, bleeding is the first cause of death amongst Stalkers
+		\n
+		\n
+		You can also craft, provided you know the recipe and have the resources, all medical supplies and equipment mentioned before
+		\n
+		\n
+		\n
+		\n			
+		%c[d_cyan]Rewards%c[white]
+		\n
+		\n
+		When you close this tutorial page you will be %c[d_cyan]gifted%c[white] with %c[d_blue]bandages%c[white] to treat the bleeding now
+		\n
+		\n
+		check your %c[d_blue]inventory%c[white]
+		</text>
+	</string>
+
+	<!-- BHSRO - Healing -->
+
+	<string id="ui_npe_bhsro_bhsroheal_set_title">
+		<text>BHSRO - Injured</text>
+	</string>
+
+	<string id="ui_npe_bhsro_bhsroheal_card_01_title">
+		<text>%c[d_cyan]Injured%c[white]</text>
+	</string>
+	<string id="ui_npe_bhsro_bhsroheal_card_01_description">
+		<text>You are injured!
+		\n
+		\n
+		You received damage to your health and limbs
+		\n
+		Leaving your limbs untreated can lead to the breaking of the limb entirely and sustaining serious side effects or even worse outcomes
+		\n
+		\n
+		%c[d_blue]head%c[white] and  %c[d_blue]torso%c[white] when they are completely destroyed leads to death
+		\n
+		\n
+		damage to %c[d_blue]arms%c[white] will impair significantly your aiming
+		\n
+		\n
+		while with damage to %c[d_blue]legs%c[white] you will start limping and have reduced walk speed 
+		\n
+		running while in this condition will exacerbate and damage further the limb, so beware
+		\n
+		\n
+		Your best option is to treat the wounds as soon as possible 
+		</text>
+	</string>
+
+	<string id="ui_npe_bhsro_bhsroheal_card_02_title">
+		<text>%c[d_cyan]Treat your injury%c[white]</text>
+	</string>
+	<string id="ui_npe_bhsro_bhsroheal_card_02_description">
+		<text>You can treat your injuries by means of medical supplies and in three ways
+		\n
+		\n
+		%c[d_purple]Fast treatmen%c[white]
+		\n
+		\n
+		When you are in combat, you don't have the time to heal properly your injuries and injuries tend to heal slowly overtime
+		\n
+		Use %c[d_blue]painkillers%c[white] to give temp health to the injured limbs
+		\n
+		Painkillers comes with different strenght, so use the right one for the situation
+		\n
+		You can use multiple painkillers as their effect wears off or you are kept getting damaged
+		\n
+		Medicines that acts as painkillers have in their tooltips %c[yellow]yellow colored descriptions%c[white]
+		\n
+		\n
+		%c[d_purple]Healing%c[white]
+		\n
+		\n
+		Healing limbs takes time, make sure you are out of combat when you attempt to heal yourself
+		\n
+		The amout of health you can heal to a limb it's relative to the main health pool, so make sure your HP is at the maximum before taking any medicine for healing
+		\n
+		Take stimpacks and medkits to gain back main HP
+		\n
+		Medicines that heals limbs have in their tooltips %c[d_blue]blue colored descriptions %c[white]
+		\n
+		\n
+		%c[d_purple]Auto Healing%c[white]
+		\n
+		\n
+		Some special equipment can automatically treat injuries or heal you back up
+		\n
+		For example
+		\n
+		\n
+		%c[d_blue]Autodoc%c[white]
+		\n
+		%c[d_blue]Outfits upgrades%c[white]
+		\n
+		%c[d_blue]Artifacts%c[white]
+		</text>
+	</string>
+
+	<string id="ui_npe_bhsro_bhsroheal_card_03_title">
+		<text>%c[d_cyan]Prepare%c[white]</text>
+	</string>
+	<string id="ui_npe_bhsro_bhsroheal_card_03_description">
+		<text>Prepare yourself ahead 
+		\n
+		\n
+		Visit doctors or general goods traders and stack up on supplies for your raids
+		\n
+		\n
+		Remember, according to the Zone Institute of Health, bleeding is the first cause of death amongst Stalkers
+		\n
+		\n
+		You can also craft, provided you know the recipe and have the resources, all medical supplies and equipment mentioned before
+		</text>
+	</string>
+
+</string_table>

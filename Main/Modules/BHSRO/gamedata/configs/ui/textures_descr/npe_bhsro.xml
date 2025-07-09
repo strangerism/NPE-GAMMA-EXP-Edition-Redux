@@ -1,0 +1,29 @@
+<w>
+	<file name="ui\npe\bhsro\bhsrolimb_01">
+		<texture id="ui_npe_bhsro_bhsrolimb_card_01" x="0" y="0" width="1024" height="576" />
+	</file>	
+	<file name="ui\npe\bhsro\bhsrolimb_02">
+		<texture id="ui_npe_bhsro_bhsrolimb_card_02" x="0" y="0" width="1024" height="576" />
+	</file>			
+	<file name="ui\npe\bhsro\bhsrolimb_03">
+		<texture id="ui_npe_bhsro_bhsrolimb_card_03" x="0" y="0" width="1024" height="576" />
+	</file>		
+	<file name="ui\npe\bhsro\bhsrobleed_01">
+		<texture id="ui_npe_bhsro_bhsrobleed_card_01" x="0" y="0" width="1024" height="576" />
+	</file>	
+	<file name="ui\npe\bhsro\bhsrobleed_02">
+		<texture id="ui_npe_bhsro_bhsrobleed_card_02" x="0" y="0" width="1024" height="576" />
+	</file>			
+	<file name="ui\npe\bhsro\bhsrobleed_03">
+		<texture id="ui_npe_bhsro_bhsrobleed_card_03" x="0" y="0" width="1024" height="576" />
+	</file>			
+	<file name="ui\npe\bhsro\bhsroheal_01">
+		<texture id="ui_npe_bhsro_bhsroheal_card_01" x="0" y="0" width="1024" height="576" />
+	</file>	
+	<file name="ui\npe\bhsro\bhsroheal_02">
+		<texture id="ui_npe_bhsro_bhsroheal_card_02" x="0" y="0" width="1024" height="576" />
+	</file>			
+	<file name="ui\npe\bhsro\bhsroheal_03">
+		<texture id="ui_npe_bhsro_bhsroheal_card_03" x="0" y="0" width="1024" height="576" />
+	</file>	
+</w>
