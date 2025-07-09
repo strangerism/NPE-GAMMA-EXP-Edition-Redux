@@ -17,4 +17,22 @@
 	<file name="ui\npe\expredux\bhsrolimb_03">
 		<texture id="ui_npe_expredux_bhsrolimb_card_03" x="0" y="0" width="1024" height="576" />
 	</file>		
+	<file name="ui\npe\expredux\bhsrobleed_01">
+		<texture id="ui_npe_expredux_bhsrobleed_card_01" x="0" y="0" width="1024" height="576" />
+	</file>	
+	<file name="ui\npe\expredux\bhsrobleed_02">
+		<texture id="ui_npe_expredux_bhsrobleed_card_02" x="0" y="0" width="1024" height="576" />
+	</file>			
+	<file name="ui\npe\expredux\bhsrobleed_03">
+		<texture id="ui_npe_expredux_bhsrobleed_card_03" x="0" y="0" width="1024" height="576" />
+	</file>			
+	<file name="ui\npe\expredux\bhsroheal_01">
+		<texture id="ui_npe_expredux_bhsroheal_card_01" x="0" y="0" width="1024" height="576" />
+	</file>	
+	<file name="ui\npe\expredux\bhsroheal_02">
+		<texture id="ui_npe_expredux_bhsroheal_card_02" x="0" y="0" width="1024" height="576" />
+	</file>			
+	<file name="ui\npe\expredux\bhsroheal_03">
+		<texture id="ui_npe_expredux_bhsroheal_card_03" x="0" y="0" width="1024" height="576" />
+	</file>	
 </w>

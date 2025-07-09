@@ -13,6 +13,14 @@ local ACTION = {
                                                 }
         },
    },
+    ADD_BLEED_SUPPLIES = {
+        name = "add_bleed_supplies",
+        descr = "Adds the supplies to treat bleeding",
+        functor = {"npe_actions", "add_to_actor", 0, { 
+                                                    ["bandage"] = 1,
+                                                }
+        },
+   },   
 }
 
 
@@ -72,13 +80,66 @@ local deck = {
             },
             context = {
                 event = npe.EVENT.ACTOR_LIMB_BROKEN,
-                delay = 5,
                 pause_game = true,
             },
             end_actions = {
-                ACTION.ADD_LIMB_SUPPLIES 
+                ACTION.ADD_LIMB_SUPPLIES
             },
         },
+        {
+            id = "bhsrobleed",
+            title = "ui_npe_expredux_bhsrobleed_set_title",
+            cards = {
+                [1] = {
+                    title = "ui_npe_expredux_bhsrobleed_card_01_title",
+                    description = "ui_npe_expredux_bhsrobleed_card_01_description",
+                    image = "ui_npe_expredux_bhsrobleed_card_01",
+                },
+                [2] = {
+                    title = "ui_npe_expredux_bhsrobleed_card_02_title",
+                    description = "ui_npe_expredux_bhsrobleed_card_02_description",
+                    image = "ui_npe_expredux_bhsrobleed_card_02",
+                },
+                [3] = {
+                    title = "ui_npe_expredux_bhsrobleed_card_03_title",
+                    description = "ui_npe_expredux_bhsrobleed_card_03_description",
+                    image = "ui_npe_expredux_bhsrobleed_card_03",
+                },
+            },
+            context = {
+                event = npe.EVENT.ACTOR_BLEEDING,
+                pause_game = true,
+            },
+            end_actions = {
+                ACTION.ADD_BLEED_SUPPLIES
+            },
+        },
+        {
+            id = "bhsroheal",
+            title = "ui_npe_expredux_bhsroheal_set_title",
+            cards = {
+                [1] = {
+                    title = "ui_npe_expredux_bhsroheal_card_01_title",
+                    description = "ui_npe_expredux_bhsroheal_card_01_description",
+                    image = "ui_npe_expredux_bhsroheal_card_01",
+                },
+                [2] = {
+                    title = "ui_npe_expredux_bhsroheal_card_02_title",
+                    description = "ui_npe_expredux_bhsroheal_card_02_description",
+                    image = "ui_npe_expredux_bhsroheal_card_02",
+                },
+                [3] = {
+                    title = "ui_npe_expredux_bhsroheal_card_03_title",
+                    description = "ui_npe_expredux_bhsroheal_card_03_description",
+                    image = "ui_npe_expredux_bhsroheal_card_03",
+                },
+            },
+            context = {
+                event = npe.EVENT.ACTOR_INJURED,
+                delay = 5,
+                pause_game = true,
+            },
+        },        
     }
 }
 
