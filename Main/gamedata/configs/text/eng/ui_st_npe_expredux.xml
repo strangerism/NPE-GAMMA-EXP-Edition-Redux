@@ -180,14 +180,14 @@
 		\n
 		%c[d_blue]Splint%c[white] 
 		\n
-		\n
 		Next, secure the limb with a splint
-		\n
 		\n
 		The UI will reflect this with the limb indicator turning to %c[d_red]red%c[white] and the limb bar being filled with a white streak again. 
 		\n
-		\n
 		This simply indicates that the limb can be healed again with medicines or by sleeping.
+		\n
+		\n
+		There are other ways to restore limbs, like Surgical Instruments or a visit to the %c[d_green]doctor%c[white]
 		</text>
 	</string>
 
@@ -195,7 +195,7 @@
 		<text>%c[d_cyan]Heal up%c[white]</text>
 	</string>
 	<string id="ui_npe_expredux_bhsrolimb_card_03_description">
-		<text>Use a painkiller to speed up the healing process
+		<text>Use a %c[d_blue]painkiller%c[white] to speed up the healing process
 		\n
 		\n
 		%c[d_blue]Painkillers%c[white] comes with all strenghts but to heal up broken limbs quickly it is recommended %c[d_blue]Yadulin%c[white]
@@ -209,13 +209,18 @@
 		%c[d_green]Tasks%c[white] might also give such supplies as rewards.
 		\n
 		\n
-		Don't forget a good night sleep is also an %c[d_green]inexpensive%c[white] way to heal your injuries.
+		Eventually, if you have the resource and the right recipe, you can craft at %c[d_blue]workbenches%c[white] any medical supplies available in the game
+		\n
+		\n		
+		Don't forget, a good night sleep is also an %c[d_green]inexpensive%c[white] way to heal your injuries.
 		\n
 		\n
+		\n
+		\n				
 		%c[d_cyan]Rewards%c[white]
 		\n
 		\n
-		When you close this tutorial page you will be gifted with the supplies to heal your limb now 
+		When you close this tutorial page you will be %c[d_cyan]gifted%c[white] with the supplies to heal your limb now 
 		\n
 		\n
 		check your %c[d_blue]inventory%c[white] and follow the steps as detailed in the previous page 

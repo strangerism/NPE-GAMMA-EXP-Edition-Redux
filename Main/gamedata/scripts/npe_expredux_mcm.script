@@ -8,7 +8,7 @@ local ACTION = {
         descr = "Adds the supplies to heal a broken limb",
         functor = {"npe_actions", "add_to_actor", 0, { 
                                                     ["splint"] = 1,
-                                                    ["surginst"] = 1,
+                                                    ["cms"] = 1,
                                                     ["yadylin"] = 1
                                                 }
         },
