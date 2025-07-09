@@ -11,7 +11,7 @@ function CreateBuildFolders {
 function BuildMod {
 
     $target = "build/NPE - GAMMA EXP Edition Redux"
-    Copy-Item -Recurse -Force -Path  ".\Main\Modules\BHSRO\gamedata", ".\Main\Modules\Custom HUD\gamedata" -Destination $target -Exclude .bak
+    Copy-Item -Recurse -Force -Path  ".\Main\Modules\BHSRO\gamedata", ".\Main\Modules\Custom HUD\gamedata", ".\Main\Modules\BlackMarket\gamedata" -Destination $target -Exclude .bak
 
     # Copy-Item -Force -Path ".\doc\NPE.pdf" -Destination $target
 }

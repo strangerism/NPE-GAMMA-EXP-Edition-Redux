@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+ <!-- NPE Module template -->
+
+ <!-- 1. PREPARATION -->
+<!-- 	you will replace in this file  -->
+<!-- 	blackmarket e.g. mymodname -->
+<!-- 	setname e.g. mysetname -->
+
+<string_table>
+
+	<!-- mcm menu (mandatory) -->
+
+	<string id="ui_mcm_npe_module_blackmarket">
+		<text>Black Market</text>
+	</string>
+	<string id="ui_mcm_npe_module_blackmarket_title">
+		<text>Black Market Tutorials</text>
+	</string>
+	<string id="ui_mcm_npe_module_blackmarket_desc">
+		<text>A set of tutorials for the Black Market mod</text>
+	</string>	
+
+	<!-- every set defined in npe_blackmarket_mcm.script must have a string definition as below -->
+	<string id="ui_mcm_npe_module_blackmarket_merchants">
+		<text>The Black Market merchants</text>
+	</string>
+
+	<string id="ui_npe_blackmarket_merchants_set_title">
+		<text>Merchants</text>
+	</string>
+	<string id="ui_npe_blackmarket_merchants_card_01_title">
+		<text>%c[d_cyan]Open for business%c[white]</text>
+	</string>
+	<string id="ui_npe_blackmarket_merchants_card_01_description">
+		<text>The merchants of the zone are dealing with the %c[d_purple]Black Market%c[white]!
+		\n
+		\n
+		Under the counter they might sell or buy all sort of stuff, so don't be shy and ask
+		\n
+		\n
+		Traders affiliated with the black market might have guns or other gear for sale
+		\n
+		\n
+		Each trader has its own reputation in the black market, so not everybody's stock is the same
+		\n
+		\n
+		Traders in the %c[d_blue]south%c[white] tend to deal with low quality gear while those %c[d_blue]deeper%c[white] in the zone have better equipment to offer
+		\n
+		\n
+		Also affiliations must be taken in consideration for the type of guns or equipment they'll have available
+		\n
+		\n
+		Certain factions tend to trade %c[d_blue]NATO%c[white] guns while others all they can offer is %c[d_blue]Warsaw Pact%c[white] guns 
+		</text>
+	</string>	
+	<string id="ui_npe_blackmarket_merchants_card_02_title">
+		<text>%c[d_cyan]Not for the faint of heart%c[white]</text>
+	</string>
+	<string id="ui_npe_blackmarket_merchants_card_02_description">
+		<text>Have you seen their prices?
+		\n
+		\n
+		They will gouge you so make sure you got the cream
+		\n
+		\n
+		Selling and buying is expensive but you can arrange sweat deals if you raise the reputation with them
+		\n
+		\n
+		Guns sold in good parts's conditions increases the money you gain from trades
+		\n
+		\n
+		and if you have somebody who has put a good name for you (%c[d_purple]RPG System Blackmarket's perks%c[white]) you might start making a fortune
+		</text>
+	</string>	
+	<string id="ui_npe_blackmarket_merchants_card_03_title">
+		<text>%c[d_cyan]Get Rich%c[white]</text>
+	</string>
+	<string id="ui_npe_blackmarket_merchants_card_03_description">
+		<text>The world is yours
+		\n
+		\n		
+		You can grind for that lucky drop, stay self reliant
+		\n
+		\n
+		or you can be social, do jobs, make money and trade with the %c[d_purple]Black Market%c[white] so you can afford anything that interests you
+		\n 
+		\n
+		Player agency is the name of the game
+		</text>
+	</string>
+
+</string_table>

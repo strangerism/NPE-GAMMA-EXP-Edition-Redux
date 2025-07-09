@@ -12,7 +12,7 @@
 	<!-- mcm menu (mandatory) -->
 
 	<string id="ui_mcm_npe_module_customhud">
-		<text>NPE Custom HUD</text>
+		<text>Custom HUD</text>
 	</string>
 	<string id="ui_mcm_npe_module_customhud_title">
 		<text>Custom HUD Tutorials</text>

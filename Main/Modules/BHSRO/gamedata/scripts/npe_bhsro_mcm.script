@@ -55,6 +55,8 @@ local deck = {
             },
             context = {
                 event = npe.EVENT.ACTOR_LIMB_BROKEN,
+                delay = 0,
+                strict = true,
                 pause_game = true,
             },
             end_actions = {
@@ -83,6 +85,8 @@ local deck = {
             },
             context = {
                 event = npe.EVENT.ACTOR_BLEEDING,
+                delay = 0,
+                strict = true,
                 pause_game = true,
             },
             end_actions = {
