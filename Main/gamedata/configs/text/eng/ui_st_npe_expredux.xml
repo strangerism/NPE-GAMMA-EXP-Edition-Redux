@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+ <!-- NPE Module template -->
+
+ <!-- 1. PREPARATION -->
+<!-- 	you will replace in this file  -->
+<!-- 	expredux e.g. mymodname -->
+<!-- 	setname e.g. mysetname -->
+
+<string_table>
+
+	<!-- mcm menu (mandatory) -->
+
+	<string id="ui_mcm_npe_module_expredux">
+		<text>NPE GAMMA EXP Redux</text>
+	</string>
+	<string id="ui_mcm_npe_module_expredux_title">
+		<text>GAMMA EXP Edition Redux Tutorials</text>
+	</string>
+	<string id="ui_mcm_npe_module_expredux_desc">
+		<text>A set of tutorials for the GAMMA EXP Edition Redux modlist</text>
+	</string>	
+
+	<!-- every set defined in npe_expredux_mcm.script must have a string definition as below -->
+	<string id="ui_mcm_npe_module_expredux_gamehud">
+		<text>The Game HUD</text>
+	</string>
+	<string id="ui_mcm_npe_module_expredux_bhsrolimb">
+		<text>BHSRO - Broken Limb</text>
+	</string>
+	<!-- deck_expredux strings -->
+	<!-- define below all strings declared in deck -->
+
+	<!-- setname set strings -->
+	<!-- define below all strings declared in the set -->
+
+	<string id="ui_npe_expredux_gamehud_set_title">
+		<text>Game HUD Tutorial</text>
+	</string>
+	<string id="ui_npe_expredux_gamehud_card_01_title">
+		<text>%c[d_cyan]The game HUD%c[white]</text>
+	</string>
+	<string id="ui_npe_expredux_gamehud_card_01_description">
+		<text>All profiles in %c[d_purple]GAMMA EXP Edition Redux%c[white] use %c[d_purple]Dynahud%c[white] as the dynamic hud framework
+		\n
+		\n
+		The HUD reskin installed is called %c[d_purple]Custom HUD%c[white], a pure immersive hud reskin
+		\n
+		\n
+		All hud elements are hidden most of the time unless a context arise to show them		
+		\n
+		\n
+		The hud elements are       
+		\n
+		\n
+		%c[d_blue]Status Indicators%c[white] (left/bottom),
+		\n
+		%c[d_blue]BHS HUD%c[white] (left),
+		\n
+		%c[d_blue]Main HUD%c[white] (center/bottom),
+		\n
+		%c[d_blue]Dynamic Compass%c[white] (right),
+		\n
+		%c[d_blue]Magazine HUD%c[white] (right),
+		\n
+		%c[d_blue]Companions HUD%c[white] (right),
+		\n
+		%c[d_blue]Weapon HUD%c[white] (center)
+		\n
+		\n
+		You can change the rules by which the elements are shown in the Dynahud MCM menu, see further on.
+		</text>
+	</string>	
+	<string id="ui_npe_expredux_gamehud_card_02_title">
+		<text>%c[d_cyan]The BHS HUD%c[white]</text>
+	</string>
+	<string id="ui_npe_expredux_gamehud_card_02_description">
+		<text>The %c[d_purple]BHS HUD%c[white] configured in Dynahud MCM is the Hybrid mode
+		\n
+		\n
+		In the view HUD, the BHS HUD is text based. Limb status is shown with a colored LABEL
+		\n
+		\n
+		White= fine, 
+		\n
+		%c[0,250,250,0]Yellow%c[white]= scratched,
+		\n
+		%c[d_orange]Orange%c[white]= minor damage, 
+		\n
+		%c[d_red]Red%c[white]= serious damage, 
+		\n
+		%c[ui_gray_2]Grey%c[white]= destroyed 	
+		\n
+		\n
+		Opening the inventory, the BHS HUD is shown with a doll instead. This is to visually help medication of the limbs
+		\n
+		\n
+		You can change the type of BHS HUD in the Dynahud MCM menu.
+		</text>
+	</string>	
+	<string id="ui_npe_expredux_gamehud_card_03_title">
+		<text>%c[d_cyan]Configure the HUD%c[white]</text>
+	</string>
+	<string id="ui_npe_expredux_gamehud_card_03_description">
+		<text>Use the %c[d_purple]Dynahud%c[white] MCM menu to configure the behavior of the HUD
+		\n
+		\n
+		In %c[d_blue]Dynamic Main HUD%c[white]you can change the behavior of the status bars (hp, psy and stamina)
+		\n
+		For instance, set the threshold to the value by which the bar will be always visible
+		\n
+		\n
+		In %c[d_blue]Dynamic BHS HUD%c[white] you can change several aspects of the BHS HUD, including a choice of three modes
+		\n
+		\n
+		In %c[d_blue]Dynamic Minimap%c[white], you can change whether the minimap is shown when you equip your weapons or not 
+		\n
+		\n
+		In %c[d_blue]Dynamic Status Icons HUD%c[white], you can change how long the status indicators stays on or when to hide the timers
+		\n
+		\n
+		In %c[d_blue]Dynamic Companion HUD%c[white], you can change the time the way the companion hud is displayed
+		\n
+		\n
+		In %c[d_blue]Dynamic Weapon HUD%c[white], you can enable/disable both ammo check and fire mode check at the same time
+		\n
+		\n
+		In %c[d_blue]Dynamic Magazine HUD%c[white], you can change the way the weapon magazine HUD triggers
+		\n
+		\n									
+		More in each submenus and options within.
+		</text>
+	</string>		
+	<!-- define below further sets strings -->
+
+
+	<string id="ui_npe_expredux_bhsrolimb_set_title">
+		<text>BHSRO - Broken Limb</text>
+	</string>
+
+	<string id="ui_npe_expredux_bhsrolimb_card_01_title">
+		<text>%c[d_cyan]Broken Limbs%c[white]</text>
+	</string>
+	<string id="ui_npe_expredux_bhsrolimb_card_01_description">
+		<text>One of your limb is completely damaged, you cannot run, aim, and you might limp and walk very slow because of it
+		\n
+		\n
+		The broken limb is shown on the BHS HUD with a %c[ui_gray_2]Grey%c[white] label (only Text BHS or Hybrid) and in the BHS doll with a completely %c[d_red]red%c[white] bar
+		\n
+		\n
+		Such injuries can be fatal in a fight
+		\n
+		\n
+		broken arms makes aiming with guns very hard
+		\n
+		\n
+		while broken legs impairs your movement with limping and greatly reduced speed
+		\n
+		\n
+		on %c[d_blue]torso%c[white] and %c[d_blue]head%c[white] such drastic injuries means instant %c[d_red]death%c[white]
+		\n
+		\n
+		Therefore, it is preferible to delay as much as possible this outcome, by healing up the damaged limbs with painkillers before it's too late
+		</text>
+	</string>
+
+	<string id="ui_npe_expredux_bhsrolimb_card_02_title">
+		<text>%c[d_cyan]Restore your limb%c[white]</text>
+	</string>
+	<string id="ui_npe_expredux_bhsrolimb_card_02_description">
+		<text>You can restore the limb using medical supplies and the following procedure:
+		\n
+		\n
+		%c[d_blue]Surgical Kit%c[white] 
+		\n
+		First you need to treat the wound with a surgical kit or instruments
+		\n
+		The UI will reflects this with the limb label turning to %c[d_purple]purple%c[white] and the bar being filled with a %c[d_blue]blue%c[white] streak  
+		\n
+		\n
+		%c[d_blue]Splint%c[white] 
+		\n
+		\n
+		Next, secure the limb with a splint
+		\n
+		\n
+		The UI will reflect this with the limb indicator turning to %c[d_red]red%c[white] and the limb bar being filled with a white streak again. 
+		\n
+		\n
+		This simply indicates that the limb can be healed again with medicines or by sleeping.
+		</text>
+	</string>
+
+	<string id="ui_npe_expredux_bhsrolimb_card_03_title">
+		<text>%c[d_cyan]Heal up%c[white]</text>
+	</string>
+	<string id="ui_npe_expredux_bhsrolimb_card_03_description">
+		<text>Use a painkiller to speed up the healing process
+		\n
+		\n
+		%c[d_blue]Painkillers%c[white] comes with all strenghts but to heal up broken limbs quickly it is recommended %c[d_blue]Yadulin%c[white]
+		\n
+		\n		
+		%c[d_green]Doctors%c[white] and general %c[d_green]traders%c[white] sells medical supplies, although they might charge you considerably
+		\n
+		\n
+		Similar supplies can also be found carried by other %c[d_green]stalkers%c[white], %c[d_green]stashes%c[white] or in %c[d_green]secured boxes%c[white]
+		\n
+		%c[d_green]Tasks%c[white] might also give such supplies as rewards.
+		\n
+		\n
+		Don't forget a good night sleep is also an %c[d_green]inexpensive%c[white] way to heal your injuries.
+		\n
+		\n
+		%c[d_cyan]Rewards%c[white]
+		\n
+		\n
+		When you close this tutorial page you will be gifted with the supplies to heal your limb now 
+		\n
+		\n
+		check your %c[d_blue]inventory%c[white] and follow the steps as detailed in the previous page 
+		</text>
+	</string>
+
+</string_table>
